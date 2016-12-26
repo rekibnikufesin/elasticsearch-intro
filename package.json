@@ -1,0 +1,17 @@
+{
+  "name": "introtoelasticsearch",
+  "version": "1.0.0",
+  "description": "This is the repo accompanying the egghead.io course *Getting Started with Elasticsearch*. During the course, you'll learn how to use elasticsearch in an efficient manner, creating indices and types, store and retrieve data, and analyze the health and performance of your Elasticsearch cluster.",
+  "main": "index.js",
+  "dependencies": {
+    "csvtojson": "^1.1.0",
+    "elasticsearch": "^12.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

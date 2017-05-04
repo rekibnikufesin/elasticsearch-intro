@@ -2,7 +2,7 @@
 
 const csv = require('csvtojson');
 const ELASTICSEARCH = require('elasticsearch');
-const Episodes = `${process.env.PWD}/dataset/simpsons_episodes.csv`;
+const Episodes = `${__dirname}/../dataset/simpsons_episodes.csv`;
 const ESCLUSTER = 'http://localhost:9200';
 const INDEX = 'simpsons';
 const TYPE = 'episode';

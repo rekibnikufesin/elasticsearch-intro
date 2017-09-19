@@ -11,6 +11,19 @@ For lesson 1, you need data in the Elasticsearch cluster for the examples to wor
 `npm install` then
 `node utils/import.js` to import the sample dataset for this lesson.
 
+## Install Elastic Search on OSX without Docker
+```bash
+$ brew update
+$ brew install elasticsearch
+$ elasticsearch
+```
+### Open New Tab
+```bash
+$ git clone https://github.com/rekibnikufesin/elasticsearch-intro.git
+$ cd elasticsearch-intro
+$ npm install
+$ node utils/import.js
+```
 ## About this course
 We'll be using the Simpsons [dataset](https://www.kaggle.com/wcukierski/the-simpsons-by-the-data) during this course. The Simpsons is an American animated television show. The dataset contains the characters, locations and episodes for most, if not all of the Simpson's shows. This dataset has many qualities that make it appealing to this course:
 - it is large enough to provide some insightful data, but small enough that you can run it on your local workstation

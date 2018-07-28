@@ -9,7 +9,7 @@ In this repo, you'll find a docker-compose.yml that will set up a basic elastics
 
 For lesson 1, you need data in the Elasticsearch cluster for the examples to work. If you don't have an existing cluster to use, change the variable name `ESCLUSTER` on line 5 in `utils/import.js` to match your cluster information. (HINT: If you don't know and are using the docker-compose.yml above, it's `http://localhost:9200` and is already correctly specified in the file). From within the repo directory, run
 `npm install` then
-`node utils/import.js` to import the sample dataset for this lesson.
+`node utils/import.js` (if you are running on windows `node utils/import_windows.js`) to import the sample dataset for this lesson.
 
 ## About this course
 We'll be using the Simpsons [dataset](https://www.kaggle.com/wcukierski/the-simpsons-by-the-data) during this course. The Simpsons is an American animated television show. The dataset contains the characters, locations and episodes for most, if not all of the Simpson's shows. This dataset has many qualities that make it appealing to this course:

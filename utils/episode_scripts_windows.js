@@ -1,7 +1,7 @@
 'use strict';
 
 const csv = require('csvtojson')
-const Scripts = `${__dirname}/dataset/simpsons_script_lines.csv`
+const Scripts = `${__dirname}/../dataset/simpsons_script_lines.csv`
 const ESCLUSTER = 'http://localhost:9200'
 const INDEX = 'simpsons';
 const TYPE = 'script';

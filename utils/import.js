@@ -9,7 +9,7 @@ const TYPE = 'episode';
 const BULK = [];
 const CLIENT = new ELASTICSEARCH.Client({
     host: ESCLUSTER,
-    apiVersion: '5.0'
+    apiVersion: '7.1'
 });
 
 console.log('Bulk import into Elasticsearch');
@@ -28,7 +28,7 @@ csv()
         }, (err) => {
             if (err) {
                 console.log(err);
-            } 
+            }
         })
         console.log('Processing complete');
     });
